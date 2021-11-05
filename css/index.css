@@ -1,0 +1,105 @@
+body {   
+    background-image: url(/pictures/tomb.png)!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+  }
+  
+.game-info-container {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .game-info {
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px #000000;
+    border-width: 5px;
+    border-radius: 12px;
+    border-color: black;
+    font-size: 4em;
+  }
+  .time{
+    font-size: 2rem;
+    margin-left: 100px;
+  }
+
+  .helpText {
+    color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 6em;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 1px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+  }
+
+  .spider{
+    position: relative;
+    width: 10%;
+    height: 30%;
+    bottom: 26%;
+    left: 40%; 
+}
+.web{
+    position: relative;
+    width: 20%;
+    height: 40%;
+    bottom: 15%;
+    left: 69%; 
+}
+.game1{
+    position: relative;
+    width: 1%;
+    height: 5%;
+    top: 49%;
+    left: 12%;
+    z-index: 2;
+}
+.game2{
+    position: relative;
+    width: 3%;
+    height: 7%;
+    top: 35%;
+    left: 43%; 
+}
+.flower{
+    position: relative;
+    width: 16%;
+    height: 7%;
+    top: 60%;
+    left: 6%;
+}
+.alter{
+    position: relative;
+    width: 13%;
+    height: 30%;
+    top: 46%;
+    right: 9%;
+}
+.lady{
+    position: relative;
+    width: 10%;
+    height: 40%;
+    top: 60%;
+    right: 30%;  
+}
+.game3{
+    position: relative;
+    width: 10%;
+    height: 40%;
+    top: 60%;
+    right: 14%;  
+}
